@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="caracter7">7</string>
+    <string name="caracter8">8</string>
+    <string name="caracter9">9</string>
+    <string name="caracterMult">*</string>
+    <string name="caracter4">4</string>
+    <string name="caracter5">5</string>
+    <string name="caracter6">6</string>
+    <string name="caracterMenos">-</string>
+    <string name="caracter1">1</string>
+    <string name="caracter2">2</string>
+    <string name="caracter3">3</string>
+    <string name="caracterSum">+</string>
+    <string name="caracter0">0</string>
+    <string name="caracterComa">,</string>
+    <string name="caracterIgual">=</string>
+    <string name="caracterDiv">/</string>
+</resources>
