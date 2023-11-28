@@ -13,7 +13,7 @@
     <string name="caracter3">3</string>
     <string name="caracterSum">+</string>
     <string name="caracter0">0</string>
-    <string name="caracterComa">,</string>
+    <string name="caracterComa">.</string>
     <string name="caracterIgual">=</string>
     <string name="caracterDiv">/</string>
 </resources>

@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/tamanioPantalla"
         android:layout_margin="@dimen/margin_20dp"
+        android:textSize="@dimen/texto_mayuscula"
         android:background="@color/whiteYellow"/>
 
     <LinearLayout
@@ -26,8 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/caracter7"
-            android:background="@drawable/ic_shape_circle"/>
+            android:text="@string/caracter7"/>
         <Space
             android:layout_width="@dimen/space_10dp"
             android:layout_height="match_parent"/>
@@ -65,8 +65,9 @@
 
         <Button
             android:id="@+id/btn4"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter4"/>
 
         <Space
@@ -75,8 +76,9 @@
         
         <Button
             android:id="@+id/btn5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter5"/>
 
         <Space
@@ -85,8 +87,9 @@
         
         <Button
             android:id="@+id/btn6"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter6"/>
 
         <Space
@@ -95,8 +98,9 @@
 
         <Button
             android:id="@+id/btnResta"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracterMenos"/>
     </LinearLayout>
 
@@ -108,8 +112,9 @@
 
         <Button
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter1"/>
 
         <Space
@@ -118,8 +123,9 @@
 
         <Button
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter2"/>
 
         <Space
@@ -128,8 +134,9 @@
 
         <Button
             android:id="@+id/btn3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter3"/>
 
         <Space
@@ -138,8 +145,9 @@
 
         <Button
             android:id="@+id/btnSuma"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracterSum"/>
     </LinearLayout>
 
@@ -151,8 +159,9 @@
 
         <Button
             android:id="@+id/btn0"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracter0"/>
 
         <Space
@@ -161,8 +170,9 @@
 
         <Button
             android:id="@+id/btnComma"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracterComa"/>
 
         <Space
@@ -171,8 +181,9 @@
 
         <Button
             android:id="@+id/btnIgual"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracterIgual"/>
 
         <Space
@@ -181,12 +192,14 @@
 
         <Button
             android:id="@+id/btnDividir"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/caracterDiv"/>
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/imgCalculadora"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/calculator_svgrepo_com"/>
