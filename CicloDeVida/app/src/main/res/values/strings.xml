@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CicloDeVida</string>
+    <string name="mensaje_salida">You may pulse 2 times for quit</string>
+    <string name="mensaje_on_resume">Ingreso por el método onResume()</string>
+    <string name="OK">Aceptar</string>
+    <string name="mensaje_alert_dialog">Mensaje de alert dialog</string>
+    <string name="ya_voy_a_salir">Ya voy a salir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="btn_ir_a_la_otra_actividad">Ir a la otra actividad</string>
+</resources>
