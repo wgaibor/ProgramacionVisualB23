@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GuardarUsuario</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_salario">Salario</string>
+    <string name="hint_edad">edad</string>
+    <string name="guardar">Guardar</string>
+    <string name="base_url">https://dummy.restapiexample.com/api/v1/</string>
+</resources>
